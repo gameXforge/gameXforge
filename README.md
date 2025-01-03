@@ -1,7 +1,3 @@
-Claro! Aqui está um texto para ser incluído no GitHub:
-
----
-
 # gameXforge
 
 **gameXforge** is an innovative game development platform that enables the creation of interactive and engaging games using existing cryptocurrencies within the X ecosystem.
