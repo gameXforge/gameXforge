@@ -58,7 +58,7 @@ class TwitterScraper:
     def get_trending_hashtags(self, woeid=1):
         trends = self.api.trends_place(woeid)
         return [trend['name'] for trend in trends[0]['trends'] if 'crypto' in trend['name'].lower()]
-1.3. Solscan Blockchain Data Collection: We use Etherscan API to track transactions related to memecoins, identifying significant wallet movements and whale behavior.
+1.3. Solscan Blockchain Data Collection: We use Solscan (https://solscan.io/apis) API to track transactions related to memecoins, identifying significant wallet movements and whale behavior.
 
 import requests
 
